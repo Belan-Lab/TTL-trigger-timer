@@ -16,11 +16,15 @@ Keypaad schematic:
        |4|
 ```
 
-1 - Emergency stop
-2 - Time setting mode (1.0s or 0.1s)
-3 - Increase time
-4 - Decrease time
-5 - Timer start/stop
+__1__ - Emergency stop
+
+__2__ - Time setting mode (1.0s or 0.1s)
+
+__3__ - Increase time
+
+__4__ - Decrease time
+
+__5__ - Timer start/stop
 
 Push-button works the same as button 5: 1 press to start, 2 presses to stop.
 
