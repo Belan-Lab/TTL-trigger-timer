@@ -9,7 +9,7 @@ _Protocol written by Valeriia Ustymenko_
 ## Operation
 
 ```
-Keypaad schematic:
+Keypad schematic:
 
        |3|
 |1| |2|    |5|
@@ -26,20 +26,20 @@ __4__ - Decrease time
 
 __5__ - Timer start/stop
 
-Push-button works the same as button 5: 1 press to start, 2 presses to stop.
+The push button works the same as button 5: 1 press to start, 2 presses to stop.
 
 Press button 5 to reset the timer between measurements.
 
 ## Preparation of the system for tests
-For optogenetic test were used a system in such configuration was, as pictured in figure below: 
+For optogenetic tests, a system in such configuration was as pictured in the figure below: 
 
 <img src="pic/image34.jpg" style="zoom:80%;" />
 
 *All equipment, needed for optogenetic test*
 
-1. The Doric LDFLS_450/075_520/060 requires a 12V DC power supply. Plug in a cable in power adapter for laser diode fiber light source (Doric, LDFLS_450/075_520/060).
+1. The Doric LDFLS_450/075_520/060 requires a 12V DC power supply. Plug in a cable in the power adapter for the laser diode fiber light source (Doric, LDFLS_450/075_520/060).
 2. Locate the 12V DC power input on the back or side of the laser diode fiber light source (Doric, LDFLS_450/075_520/060).
-3. Use a BNC cable to connect the TTL signal source to the laser's TTL input for laser diode #1, 450 nm. Ensure that you properly secured it by rotating connector.
+3. Use a BNC cable to connect the TTL signal source to the laser's TTL input for laser diode #1, 450 nm. Rotate the connector to ensure that it is properly secured.
 
 <img src="pic/image35.jpg" style="zoom:25%;" />
 
@@ -49,7 +49,7 @@ For optogenetic test were used a system in such configuration was, as pictured i
 
 __Note: Detailed description of the Doric LDFLS setup is not provided here!__
 
-5. Use a BNC cable to connect the the laser's TTL input for laser diode #1, 450 nm to TTL timer (Arduino-UNO compatible board with LCD-keypad shield in a very beautiful blue plastic box!). Ensure that you properly secured it by rotating connector.
+5. Use a BNC cable to connect the the laser's TTL input for laser diode #1, 450 nm to the TTL timer (Arduino-UNO compatible board with LCD-keypad shield in a very beautiful blue plastic box!). Ensure that you properly secure it by rotating the connector.
 
 <img src="pic/image33.jpg" style="zoom:25%;" />
 
@@ -67,7 +67,7 @@ __Note: Detailed description of the Doric LDFLS setup is not provided here!__
 | :---------------------------------------------: | :--------------------------------------------: |
 | <img src="pic/image14.jpg" style="zoom:25%;" /> | <img src="pic/image1.jpg" style="zoom:25%;" /> |
 
-10. Set the max time of exposing the hind paw by pushing the third buttons from left, or middle buttons. We choose max one second exposition to prevent misinterpretation due to thermal stimulation rather than optical activation. The minimal possible exposition is 0.2 seconds.
+10. Set the max time of exposing the hind paw by pushing the third buttons from the left, or middle buttons. We choose max one second exposition to prevent misinterpretation due to thermal stimulation rather than optical activation. The minimal possible exposition is 0.2 seconds.
 
 11. Check the correctness of working of all components of the system by pushing a push button mounted on a 15 mL vial. Do not orient the laser to the eyes!
 
